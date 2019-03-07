@@ -8,11 +8,12 @@
     "name": "William Wong"
   },
   "dependencies": {
-    "azure-storage": "^1.2.0",
-    "azure-storage-fs": "^0.0.4",
+    "azure-storage": "^2.10.2",
+    "azure-storage-fs": "^0.4.0",
     "bluebird": "^3.4.1",
-    "debug": "^2.2.0",
-    "deep-assign": "^2.0.0",
+    "debug": "^4.1.1",
+    "deep-assign": "^3.0.0",
+    "dotenv": "^6.2.0",
     "ftpd": "^0.2.15"
   },
   "main": "index.js",
@@ -20,7 +21,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "^3.0.2"
+    "mocha": "^6.0.0"
   },
   "keywords": [
     "azure",

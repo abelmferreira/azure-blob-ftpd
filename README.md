@@ -5,6 +5,19 @@ A simple FTP server template for Azure Storage Blob.
 
 This server is built on top of [`ftpd`](https://www.npmjs.com/package/ftpd) and [`azure-storage-fs`](https://www.npmjs.com/package/azure-storage-fs) modules.
 
+## Update in this Fork
+
+1. Fixes bugs in ftp_node and ftpd modules (manual replace files in ./modules_update to node_modules folder)
+2. Add extra configs to env variables
+3. Add option to replace username for $web folter, when activating Azure Static Website
+4. Add pass port options to passive ftp
+5. Add nginx config example to reverse proxy https access
+
+## Bugs not fixed and next
+1. Tests with FTP TLS Failed, no dir list after login, not in use
+2. Better code
+
+
 ## How to use
 
 1. Create a Azure Storage account on [Azure Portal](https://portal.azure.com/)
